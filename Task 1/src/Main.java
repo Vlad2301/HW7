@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int toadEyesCount = 0;          //Жабьи глаза
@@ -6,6 +8,10 @@ public class Main {
         int dumplingsCount = 0;         //Пельмени(а почему, собственно нет? xD )
 
         //todo реализовать ввод пользователем кол-ва ингредиентов.
+        toadEyesCount = new Scanner(System.in).nextInt();
+        ghoulTearsCount = new Scanner(System.in).nextInt();
+        ravenBonesCount = new Scanner(System.in).nextInt();
+        dumplingsCount = new Scanner(System.in).nextInt();
 
         //Рецепты Эликсиров:
         // 1. 3 Жабьих глаза + 1 кость ворона - Эликсир зоркости
